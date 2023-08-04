@@ -11,7 +11,7 @@ export const CardMain = (props) => {
             <Row className='g-md-3 g-2 justify-content-center'>
                 {
                     NamesList.map((name, index) => (
-                        <Col xs="auto" key={index}>
+                        <Col sm="4" key={index}>
                             <Card style={{ minWidth: "8rem" }}>
                                 <Card.Subtitle>{name.id}</Card.Subtitle>
                                 <Card.Body>
