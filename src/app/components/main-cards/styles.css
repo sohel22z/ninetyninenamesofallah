@@ -1,4 +1,29 @@
 .card {
     height: max-content;
     min-width: fit-content;
+    aspect-ratio: 2/1.15;
+    position: relative;
+}
+
+.card-subtitle {
+    position: absolute;
+    font-size: 45px;
+    font-weight: 800;
+    color: #f1f1f1;
+    bottom: 74%;
+    left: 3%;
+    z-index: 0;
+    /* background: cornflowerblue; */
+    /* padding: 0px 18px; */
+    /* border-radius: 50%; */
+}
+
+.card-body {
+    z-index: 1;
+}
+
+.arabic-name {
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: darkslategray;
 }
