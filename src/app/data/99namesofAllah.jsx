@@ -3,37 +3,43 @@ export const NamesList = [
         id: 1,
         arabic: "ٱلْرَّحْمَـانُ",
         transliteration: "AR-RAHMAAN",
-        meaning: "The Most or Entirely Merciful"
+        // meaning: "The Most or Entirely Merciful",
+        meaning: "The Beneficient, All-Compassionate, Most Gracious"
     },
     {
         id: 2,
         arabic: "ٱلْرَّحِيْمُ",
         transliteration: "AR-RAHEEM",
-        meaning: "The Bestower of Mercy"
+        // meaning: "The Bestower of Mercy"
+        meaning: "The Most Merciful"
     },
     {
         id: 3,
         arabic: "ٱلْمَلِكُ",
         transliteration: "AL-MALIK",
-        meaning: "The King and Owner of Dominion"
+        // meaning: "The King and Owner of Dominion",
+        meaning: "The Sovereign, Possessor of Supreme Power and Authority"
     },
     {
         id: 4,
         arabic: "ٱلْقُدُّوسُ",
         transliteration: "AL-QUDDUS",
-        meaning: "The Absolutely Pure"
+        // meaning: "The Absolutely Pure",
+        meaning: "The Holy, All-Pure, All-Sacred"
     },
     {
         id: 5,
         arabic: "ٱلْسَّلَامُ",
         transliteration: "AS-SALAM",
-        meaning: "The Perfection and Giver of Peace"
+        // meaning: "The Perfection and Giver of Peace",
+        meaning: "The Giver of Peace"
     },
     {
         id: 6,
         arabic: "ٱلْمُؤْمِنُ",
         transliteration: "AL-MU’MIN",
-        meaning: "The One Who gives Emaan and Security"
+        // meaning: "The One Who gives Emaan and Security",
+        meaning: "The Granter of Security, The Giver of Belief"
     },
     {
         id: 7,

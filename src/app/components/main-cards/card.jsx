@@ -11,7 +11,7 @@ export const CardMain = (props) => {
                 <Col>
                     <Card key={index} className='shadow-sm'>
                         <Card.Subtitle>{name.id}</Card.Subtitle>
-                        <Card.Body >
+                        <Card.Body>
                             <Card.Title>
                                 {name.transliteration} - <span className='arabic-name'>{name.arabic}</span>
                             </Card.Title>
@@ -25,20 +25,20 @@ export const CardMain = (props) => {
                                     </p> */}
                         </Card.Body>
                         <Card.Footer className='border-top-0'>
-                            <div className="d-flex justify-content-between align-items-center">
+                            {/* <div className="d-flex justify-content-between align-items-center">
                                 <div className="btn-group">
-                                    {/* <button
+                                    <button
                                         type="button"
                                         className="btn btn-sm btn-outline-secondary"
                                     >
                                         View
-                                    </button> */}
-                                    {/* <button
+                                    </button>
+                                    <button
                                         type="button"
                                         className="btn btn-sm btn-outline-secondary"
                                     >
                                         Edit
-                                    </button> */}
+                                    </button>
                                 </div>
                                 <button
                                     type="button"
@@ -46,8 +46,8 @@ export const CardMain = (props) => {
                                 >
                                     View
                                 </button>
-                                {/* <small className="text-muted">9 mins</small> */}
-                            </div>
+                                <small className="text-muted">9 mins</small>
+                            </div> */}
                         </Card.Footer>
                     </Card>
                 </Col>
