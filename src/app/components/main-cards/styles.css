@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@600&display=swap');
+
 .card {
     height: max-content;
     min-width: fit-content;
@@ -28,7 +30,9 @@
 }
 
 .arabic-name {
-    font-size: 28px;
-    letter-spacing: 1px;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: normal;
     color: darkslategray;
 }
